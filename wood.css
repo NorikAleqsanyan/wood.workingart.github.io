@@ -1,0 +1,315 @@
+body{
+    background-color: rgba(255, 255, 255, 0.267);
+    background-position: left;
+    background-size: cover;
+}
+   
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+ul{
+    margin-bottom: 100px;
+    height: 600px;
+    list-style: none;
+    background: url(Poto.logo/wood.title\ \(2\).jpg) no-repeat;
+    background-position: left;
+    background-size: cover;
+
+}
+ul li {
+    display:  inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul li ul.dropdow li {
+    display: block;
+    
+}
+ul li ul.dropdow {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.822);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background: #000000b0;
+}
+ul li:hover ul.dropdow{
+    display: block;
+}
+
+
+
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    height: 450px;
+    width: 800px;
+    box-shadow: 0px 5px 8px rgba(0,0,0.3);
+    overflow: hidden;
+}
+.images{
+    height: 200%;
+    width: 1000%;
+    display: flex;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.buttons{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.buttons a{
+    height: 8px;
+    width: 30px;
+    border: 2px solid white;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.gallery {
+    border: 1px solid #ff3c0077;
+   
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    transition: 400ms;
+  }
+
+  
+  div.gallery:hover {
+    border: 1px solid #ff3c0077;
+    filter: grayscale(1);
+    transform: scale(1.03);
+  }
+  
+  div.gallery img {
+    width: 500px;
+    height: 450px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 30px 60px;
+    float: left;
+   
+  }
+  
+  @media only screen and (max-width: 200px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 200px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sectiondown{
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 100px;
+    margin-top: 300px;
+}
+
+.divdown1{
+    background-color:rgba(0, 0, 0, 0.801);
+    width: 300px;
+    height: 90px;
+    border: 2px;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px ;
+    cursor: pointer;
+    transition: 400ms;
+}
+.divdown1:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.divdown1 a{
+    color: aliceblue;
+}
+.divdown2{
+    background-color:rgba(0, 0, 0, 0.801);
+    width: 270px;
+    margin-left: 40%;
+    margin-top: -90px;
+    height: 90px;
+    border: 2px;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px ;
+    cursor: pointer;
+    transition: 400ms;
+}
+.divdown2:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.divdown2 a{
+    color: aliceblue;
+}
+
+
+.divdown3{
+    background-color:rgba(0, 0, 0, 0.801);
+    width: 200px;
+    margin-left: auto;
+    margin-top: -90px;
+    height: 90px;
+    border: 2px;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px ;
+    cursor: pointer;
+    transition: 400ms;
+}
+.divdown3:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.divdown3 a{
+    color: aliceblue;
+}
+
+.p1{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    color: rgb(255, 255, 255);
+    font-kerning: normal;
+    font-size: 30px;
+}
+.p2{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    color: rgb(255, 255, 255);
+    font-kerning: normal;
+    font-size: 30px;
+}
+.p3{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    color: rgb(255, 255, 255);
+    font-kerning: normal;
+    font-size: 30px;
+}
+.imginstgram{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.imgtelepone{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.imgmap{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+    
+
+
